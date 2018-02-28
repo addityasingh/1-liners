@@ -1,5 +1,5 @@
 import { deepEqual } from 'assert';
-import keyBy from '../keyBy';
+import keyBy from '../module/keyBy';
 
 test('#keyBy', () => {
 	const array = [{id: 1}, {id: 2}];

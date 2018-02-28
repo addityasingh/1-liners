@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import partial from '../partial';
+import partial from '../module/partial';
 
 test('#partial', () => {
   const add = (a, b, c) => a + b + c; 

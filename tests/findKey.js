@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import findKey from '../findKey';
+import findKey from '../module/findKey';
 
 test('#findKey', () => {
   const data = { a: 1, b: 2, c: 3 };

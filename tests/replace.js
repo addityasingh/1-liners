@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import replace from '../replace';
+import replace from '../module/replace';
 
 test('#replace', () => {
 	equal(replace(/\d+/g, sub => `"${sub}"`, 'Items: 3,2'), `Items: "3","2"`);

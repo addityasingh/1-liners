@@ -1,5 +1,5 @@
 import { ok } from 'assert';
-import not from '../not';
+import not from '../module/not';
 
 test('#not', () => {
 	ok(!not(true));

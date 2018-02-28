@@ -1,5 +1,5 @@
 import { equal, deepEqual } from 'assert';
-import reduce from '../reduce';
+import reduce from '../module/reduce';
 
 let sub = (x, y) => x - y;
 test('#reduce', () => {

@@ -1,5 +1,5 @@
 import { ok } from 'assert';
-import ourTest from '../test';
+import ourTest from '../module/test';
 
 test('#test', () => {
   ok(ourTest('hayhayhayneedlehayhay', /needle/));

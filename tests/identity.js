@@ -1,5 +1,5 @@
 import { deepEqual } from 'assert';
-import identity from '../identity';
+import identity from '../module/identity';
 
 test('#identity', () => {
   deepEqual(identity(true), true);

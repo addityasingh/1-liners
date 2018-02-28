@@ -1,5 +1,5 @@
 import {ok} from 'assert';
-import isUnknown from '../isUnknown';
+import isUnknown from '../module/isUnknown';
 
 test('#isUnknown', () => {
 	ok(isUnknown(null));

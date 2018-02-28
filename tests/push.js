@@ -1,5 +1,5 @@
 import { deepEqual } from 'assert';
-import push from '../push';
+import push from '../module/push';
 
 test('#push', () => {
 	let arr = [0, 1, 2];

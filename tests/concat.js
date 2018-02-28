@@ -1,5 +1,5 @@
 import { deepEqual } from 'assert';
-import concat from '../concat';
+import concat from '../module/concat';
 
 test('#concat', () => {
 	deepEqual(

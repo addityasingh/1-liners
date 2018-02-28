@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import always from '../always';
+import always from '../module/always';
 
 test('#always', () => {
   equal(always(true)(), true);

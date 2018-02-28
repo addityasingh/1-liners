@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import some from '../some';
+import some from '../module/some';
 
 test('#some', () => {
 	equal(some(elem => elem >= 16,[1,2,7,9,11,42]), true);

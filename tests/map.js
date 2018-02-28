@@ -1,5 +1,5 @@
 import { deepEqual } from 'assert';
-import map from '../map';
+import map from '../module/map';
 
 test('#map', () => {
 	let arr = [9, 16, 25];

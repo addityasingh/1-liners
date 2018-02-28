@@ -1,5 +1,5 @@
 import {ok} from 'assert';
-import isNumber from '../isNumber';
+import isNumber from '../module/isNumber';
 
 test('#isNumber', () => {
 	ok(isNumber(0));

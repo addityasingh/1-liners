@@ -1,5 +1,5 @@
 import {ok} from 'assert';
-import isTypeOf from '../isTypeOf';
+import isTypeOf from '../module/isTypeOf';
 
 test('#isTypeOf', () => {
 	ok(isTypeOf('boolean', false));

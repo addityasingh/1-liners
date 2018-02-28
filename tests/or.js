@@ -2,7 +2,7 @@ import {
   ok
 }
 from 'assert';
-import or from '../or';
+import or from '../module/or';
 
 test('#or', () => {
   ok(or(true, true));

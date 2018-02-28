@@ -2,7 +2,7 @@ import {
   ok
 }
 from 'assert';
-import bitAnd from '../bitAnd';
+import bitAnd from '../module/bitAnd';
 
 test('#bitAnd', () => {
   ok(bitAnd(true, true));

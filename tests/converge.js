@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import converge from '../converge';
+import converge from '../module/converge';
 
 test('#converge', () => {
 	let g = (a, b) => a + b;

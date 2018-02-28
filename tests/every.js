@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import every from '../every';
+import every from '../module/every';
 
 test('#every', () => {
 	equal(every(elem => elem >= 16,[1,2,7,9,11,42]), false);

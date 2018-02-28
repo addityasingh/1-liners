@@ -1,4 +1,4 @@
 import { equal } from 'assert';
-import plus from '../plus';
+import plus from '../module/plus';
 
 test('#plus', () => equal(plus(0, 2), 2));

@@ -1,5 +1,5 @@
 import { deepEqual } from 'assert';
-import forEach from '../forEach';
+import forEach from '../module/forEach';
 
 test('#forEach', () => {
 	let result = [];

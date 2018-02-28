@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import method from '../method';
+import method from '../module/method';
 
 test('#method', () => {
 	const object = {

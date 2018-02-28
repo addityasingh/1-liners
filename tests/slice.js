@@ -1,5 +1,5 @@
 import { equal, deepEqual } from 'assert';
-import slice from '../slice';
+import slice from '../module/slice';
 
 test('#slice', () => {
   const array = [1, 2, 3, 4, 5];

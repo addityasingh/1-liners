@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import includes from '../includes';
+import includes from '../module/includes';
 
 test('#includes', () => {
   let str = 'Blue Whale';

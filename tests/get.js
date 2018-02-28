@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import get from '../get';
+import get from '../module/get';
 
 test('#get', () => {
 	let obj = { a: { b: 1, c: null } };

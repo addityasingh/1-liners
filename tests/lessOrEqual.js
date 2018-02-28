@@ -1,5 +1,5 @@
 import { ok } from 'assert';
-import lessOrEqual from '../lessOrEqual';
+import lessOrEqual from '../module/lessOrEqual';
 
 test('#lessOrEqual', () => {
   ok(lessOrEqual(1, 2));

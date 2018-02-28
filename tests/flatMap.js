@@ -1,5 +1,5 @@
 import { deepEqual } from 'assert';
-import flatMap from '../flatMap';
+import flatMap from '../module/flatMap';
 
 test('#flatMap', () => {
 	let arr = [1, 2, 3];

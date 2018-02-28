@@ -1,5 +1,5 @@
 import {ok} from 'assert';
-import isUndefined from '../isUndefined';
+import isUndefined from '../module/isUndefined';
 
 test('#isUndefined', () => {
 	ok(isUndefined(undefined));

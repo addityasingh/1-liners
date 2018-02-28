@@ -1,5 +1,5 @@
 import { equal, ok } from 'assert';
-import average from '../average';
+import average from '../module/average';
 
 const {isNaN} = Number;
 

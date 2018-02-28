@@ -1,5 +1,5 @@
 import { ok } from 'assert';
-import lessThan from '../lessThan';
+import lessThan from '../module/lessThan';
 
 test('#lessThan', () => {
   ok(lessThan(1, 2));

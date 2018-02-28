@@ -1,5 +1,5 @@
 import { deepEqual } from 'assert';
-import take from '../take';
+import take from '../module/take';
 
 test('#take', () => {
 	deepEqual(take(0, [0, 1, 2]), []);

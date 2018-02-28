@@ -1,4 +1,4 @@
 import { equal } from 'assert';
-import dec from '../dec';
+import dec from '../module/dec';
 
 test('#dec', () => equal(dec(5), 4));

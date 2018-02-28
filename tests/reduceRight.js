@@ -1,5 +1,5 @@
 import { equal, deepEqual } from 'assert';
-import reduceRight from '../reduceRight';
+import reduceRight from '../module/reduceRight';
 
 let sub = (x, y) => x - y;
 test('#reduceRight', () => {

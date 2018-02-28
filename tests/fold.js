@@ -1,5 +1,5 @@
 import { equal, deepEqual } from 'assert';
-import fold from '../fold';
+import fold from '../module/fold';
 
 let sub = (x, y) => x - y;
 test('#fold', () => {

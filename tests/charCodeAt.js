@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import charCodeAt from '../charCodeAt';
+import charCodeAt from '../module/charCodeAt';
 
 test('#charCodeAt', () => {
   equal(charCodeAt(1, 'hallo'), 97);

@@ -1,5 +1,5 @@
 import { ok } from 'assert';
-import greaterOrEqual from '../greaterOrEqual';
+import greaterOrEqual from '../module/greaterOrEqual';
 
 test('#greaterOrEqual', () => {
   ok(greaterOrEqual(2, 1));

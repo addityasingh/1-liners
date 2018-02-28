@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import between from '../between';
+import between from '../module/between';
 
 test('#between', () => {
   equal( between(1, 10, 3)    , 3    );

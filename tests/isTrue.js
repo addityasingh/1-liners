@@ -1,5 +1,5 @@
 import {ok} from 'assert';
-import isTrue from '../isTrue';
+import isTrue from '../module/isTrue';
 
 test('#isTrue', () => {
 	ok(isTrue(true));

@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import uncurry from '../uncurry';
+import uncurry from '../module/uncurry';
 
 test('#uncurry', () => {
 	const f = (a) => (b) => a + b;

@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import lastIndexOf from '../lastIndexOf';
+import lastIndexOf from '../module/lastIndexOf';
 
 test('#lastIndexOf', () => {
   equal(lastIndexOf('w', 'wow'), 2);

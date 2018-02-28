@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import compose from '../compose';
+import compose from '../module/compose';
 
 test('#compose', () => {
 	let g = (a, b) => a + b;

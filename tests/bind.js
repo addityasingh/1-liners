@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import bind from '../bind';
+import bind from '../module/bind';
 
 test('#bind', () => {
 	const Obj = {

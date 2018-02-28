@@ -1,5 +1,5 @@
 import { equal, deepEqual } from 'assert';
-import head from '../head';
+import head from '../module/head';
 
 test('#head', () => {
 	let arr = [0, 1, 2];

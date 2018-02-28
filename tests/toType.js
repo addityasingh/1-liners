@@ -1,5 +1,5 @@
 import {ok} from 'assert';
-import toType from '../toType';
+import toType from '../module/toType';
 
 test('#toType', () => {
     ok(toType() === 'undefined');

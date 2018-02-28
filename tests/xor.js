@@ -2,7 +2,7 @@ import {
 	equal
 }
 from 'assert';
-import xor from '../xor';
+import xor from '../module/xor';
 
 test('#xor', () => {
 	equal(xor(1, 0), 1);

@@ -1,5 +1,5 @@
 import { ok, equal, deepEqual } from 'assert';
-import shallowClone from '../shallowClone';
+import shallowClone from '../module/shallowClone';
 
 test('#shallowClone', () => {
 	const source = {

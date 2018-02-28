@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import implode from '../implode';
+import implode from '../module/implode';
 
 test('#implode', () => {
 	let f = (a) => a + a;

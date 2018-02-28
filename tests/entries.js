@@ -1,5 +1,5 @@
 import { deepEqual } from 'assert';
-import entries from '../entries';
+import entries from '../module/entries';
 
 test('#entries', () => {
   deepEqual(entries({ foo: 'bar', baz: 42 }), [ ['foo', 'bar'], ['baz', 42] ]);

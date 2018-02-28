@@ -1,5 +1,5 @@
 import { ok } from 'assert';
-import equal from '../equal';
+import equal from '../module/equal';
 
 test('#equal', () => {
   ok(equal(true, true));

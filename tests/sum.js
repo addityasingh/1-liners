@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import sum from '../sum';
+import sum from '../module/sum';
 
 test('#sum', () => {
 	equal(sum([1, 2, 3]), 6);

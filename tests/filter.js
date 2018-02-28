@@ -1,5 +1,5 @@
 import { deepEqual } from 'assert';
-import filter from '../filter';
+import filter from '../module/filter';
 
 let isOdd = (x) => x % 2 !== 0;
 

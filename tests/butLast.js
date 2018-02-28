@@ -1,5 +1,5 @@
 import { deepEqual } from 'assert';
-import butLast from '../butLast';
+import butLast from '../module/butLast';
 
 test('#butLast', () => {
 	const array = [1, 2, 3];

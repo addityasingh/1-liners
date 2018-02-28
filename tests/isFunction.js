@@ -1,5 +1,5 @@
 import {ok} from 'assert';
-import isFunction from '../isFunction';
+import isFunction from '../module/isFunction';
 
 test('#isFunction', () => {
 	ok(isFunction(() => {}));

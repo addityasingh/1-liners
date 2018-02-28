@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import trim from '../trim';
+import trim from '../module/trim';
 
 test('#trim', () => {
   equal(trim('  hallo  '), 'hallo');

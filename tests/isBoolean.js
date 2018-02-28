@@ -1,5 +1,5 @@
 import {ok} from 'assert';
-import isBoolean from '../isBoolean';
+import isBoolean from '../module/isBoolean';
 
 test('#isBoolean', () => {
 	ok(isBoolean(false));

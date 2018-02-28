@@ -1,5 +1,5 @@
 import {ok} from 'assert';
-import isString from '../isString';
+import isString from '../module/isString';
 
 test('#isString', () => {
 	ok(isString(''));

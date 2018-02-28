@@ -1,5 +1,5 @@
 import {equal} from 'assert';
-import min from '../min';
+import min from '../module/min';
 
 test('#min', () => {
 	equal(min(3, 6), 3);

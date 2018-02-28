@@ -1,5 +1,5 @@
 import { equal, throws } from 'assert';
-import normalize from '../normalize';
+import normalize from '../module/normalize';
 
 test('#normalize', () => {
   let str = '\u1E9B\u0323';

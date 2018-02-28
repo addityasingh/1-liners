@@ -2,7 +2,7 @@ import {
 	equal
 }
 from 'assert';
-import nand from '../nand';
+import nand from '../module/nand';
 
 test('#nand', () => {
 	equal(nand(0, 0), true);

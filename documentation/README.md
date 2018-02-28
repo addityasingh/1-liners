@@ -423,13 +423,13 @@ Compose a new function with a given array of functions.
 ```js
 const composeAll = require('1-liners/composeAll');
 
-composeAll([f, g, h])(1, 2) === f(g(h(1, 2)));
+composeAll(f, g, h)(1, 2) === f(g(h(1, 2)));
 ```
 
 <div align="right"><sup>
 	<a href="../tests/composeAll.js">Spec</a>
 	•
-	<a href="../module/composeAll.js">Source</a>: <code> (fns) =&gt; fns.reduce( (f, g) =&gt; (...args) =&gt; f(g(...args)) );</code>
+	<a href="../module/composeAll.js">Source</a>: <code> (...fns) =&gt; fns.reduce((f, g) =&gt; (...args) =&gt; f(g(...args)));</code>
 </sup></div>
 
 

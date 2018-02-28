@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import product from '../product';
+import product from '../module/product';
 
 test('#product', () => {
 	equal(product([2, 3, 4]), 24);

@@ -1,5 +1,5 @@
 import { equal, deepEqual } from 'assert';
-import ifThenElse from '../ifThenElse';
+import ifThenElse from '../module/ifThenElse';
 
 test('#ifThenElse', () => {
 	let eq = (a, b) => a === b;

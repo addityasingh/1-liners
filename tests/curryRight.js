@@ -1,5 +1,5 @@
 import {equal} from 'assert';
-import curryRight from '../curryRight';
+import curryRight from '../module/curryRight';
 
 test('#curryRight', () => {
 	const g = (a, b, c, d) => a + b * c - d;

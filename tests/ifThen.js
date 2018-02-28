@@ -1,5 +1,5 @@
 import { equal, deepEqual } from 'assert';
-import ifThen from '../ifThen';
+import ifThen from '../module/ifThen';
 
 test('#ifThen', () => {
 	let words = ifThen((str) => typeof str === 'string', (str) => str.split(' '));

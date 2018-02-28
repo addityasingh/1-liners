@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import once from '../once';
+import once from '../module/once';
 
 test('#once', () => {
 	let count = 0;

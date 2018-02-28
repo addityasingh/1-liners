@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import localeCompare from '../localeCompare';
+import localeCompare from '../module/localeCompare';
 
 test('#localeCompare', () => {
   equal(localeCompare('B', 'A'), -1);

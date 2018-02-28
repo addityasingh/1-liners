@@ -1,5 +1,5 @@
 import { deepEqual } from 'assert';
-import omit from '../omit';
+import omit from '../module/omit';
 
 test('#omit', () => {
 	const object = {foo: 1, bar: 2, baz: 3};

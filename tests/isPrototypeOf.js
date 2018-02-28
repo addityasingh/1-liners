@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import isPrototypeOf from '../isPrototypeOf';
+import isPrototypeOf from '../module/isPrototypeOf';
 
 test('#isPrototypeOf', () => {
 	const Foo = function() {};

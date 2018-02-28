@@ -1,5 +1,5 @@
 import { ok } from 'assert';
-import looseEqual from '../looseEqual';
+import looseEqual from '../module/looseEqual';
 
 test('#looseEqual', () => {
   ok(looseEqual(true, true));

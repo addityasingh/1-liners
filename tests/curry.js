@@ -1,7 +1,7 @@
 import { equal } from 'assert';
-import curry from '../curry';
-import reduce from '../reduce';
-import compose from '../compose';
+import curry from '../module/curry';
+import reduce from '../module/reduce';
+import compose from '../module/compose';
 
 test('#curry', () => {
 	const f = (a, b) => a + b;

@@ -1,7 +1,9 @@
 import { equal } from 'assert';
-import exec from '../exec';
+import exec from '../module/exec';
+import curry from '../module/curry';
+import join from '../module/join';
 
-const stringify = require('../curry')(require('../join'))('\0');
+const stringify = curry(join)('\0');
 
 test('#test', () => {
 	const haystack = 'hAyHAYhayneEdLEHayHAy';

@@ -2,7 +2,7 @@ import {
   ok
 }
 from 'assert';
-import and from '../and';
+import and from '../module/and';
 
 test('#and', () => {
   ok(and(true, true));

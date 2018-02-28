@@ -1,5 +1,5 @@
 import { deepEqual } from 'assert';
-import uniq from '../uniq';
+import uniq from '../module/uniq';
 
 test('#uniq', () => {
 	deepEqual(uniq([0, 5, 7, 5, 0]), [0, 5, 7]);

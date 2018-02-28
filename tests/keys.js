@@ -1,5 +1,5 @@
 import { deepEqual } from 'assert';
-import keys from '../keys';
+import keys from '../module/keys';
 
 test('#keys', () => {
 	const obj = { 100: 'a', 2: 'b', 7: 'c' };

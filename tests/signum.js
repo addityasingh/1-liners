@@ -1,5 +1,5 @@
 import { equal, ok } from 'assert';
-import signum from '../signum';
+import signum from '../module/signum';
 
 test('#signum', () => {
 	equal(signum(-5),         -1);

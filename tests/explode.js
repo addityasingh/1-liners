@@ -1,6 +1,6 @@
 import { equal } from 'assert';
-import implode from '../implode';
-import explode from '../explode';
+import implode from '../module/implode';
+import explode from '../module/explode';
 
 test('#explode', () => {
 	let f = implode((a) => a + a);

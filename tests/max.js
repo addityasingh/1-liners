@@ -1,5 +1,5 @@
 import {equal} from 'assert';
-import max from '../max';
+import max from '../module/max';
 
 test('#max', () => {
 	equal(max(3, 6), 6);

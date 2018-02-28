@@ -1,5 +1,5 @@
 import { deepEqual } from 'assert';
-import uniqBy from '../uniqBy';
+import uniqBy from '../module/uniqBy';
 
 test('#uniqBy', () => {
 	let array = [{ id: 1 }, { id: 2 }, { id: 1 }];

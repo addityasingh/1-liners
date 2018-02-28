@@ -1,5 +1,5 @@
 import { deepEqual } from 'assert';
-import tail from '../tail';
+import tail from '../module/tail';
 
 test('#tail', () => {
 	let arr = [0, 1, 2];

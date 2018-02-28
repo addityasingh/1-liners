@@ -1,5 +1,5 @@
 import { deepEqual } from 'assert';
-import range from '../range';
+import range from '../module/range';
 
 test('#range', () => {
   deepEqual(range(1, 3), [1, 2]);

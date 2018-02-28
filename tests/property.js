@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import property from '../property';
+import property from '../module/property';
 
 test('#property', () => {
 	const object = {foo: 1, baz: [3]};

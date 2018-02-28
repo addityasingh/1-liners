@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import indexOf from '../indexOf';
+import indexOf from '../module/indexOf';
 
 test('#indexOf', () => {
   equal(indexOf('w', 'wow'), 0);

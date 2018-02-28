@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import toUpperCase from '../toUpperCase';
+import toUpperCase from '../module/toUpperCase';
 
 test('#toUpperCase', () => {
   equal(toUpperCase('something lowercase'), 'SOMETHING LOWERCASE');

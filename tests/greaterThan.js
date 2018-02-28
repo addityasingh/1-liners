@@ -1,5 +1,5 @@
 import { ok } from 'assert';
-import greaterThan from '../greaterThan';
+import greaterThan from '../module/greaterThan';
 
 test('#greaterThan', () => {
   ok(greaterThan(2, 1));

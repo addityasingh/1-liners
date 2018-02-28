@@ -1,5 +1,5 @@
 import { deepEqual } from 'assert';
-import castArray from '../castArray';
+import castArray from '../module/castArray';
 
 test('#castArray', () => {
 	let arr = [0, 1, 2];

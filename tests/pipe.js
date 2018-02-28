@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import pipe from '../pipe';
+import pipe from '../module/pipe';
 
 test('#pipe', () => {
 	let g = (a, b) => a + b;

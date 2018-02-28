@@ -1,5 +1,5 @@
 import { equal } from 'assert';
-import flip from '../flip';
+import flip from '../module/flip';
 
 test('#flip', () => {
 	const f = (a, b) => a / b;

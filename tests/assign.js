@@ -1,5 +1,5 @@
 import { deepEqual, notDeepEqual } from 'assert';
-import assign from '../assign';
+import assign from '../module/assign';
 
 test('#assign', () => {
 	const object = {id: 1, age: 29};

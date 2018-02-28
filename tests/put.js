@@ -1,5 +1,5 @@
 import { deepEqual, notDeepEqual } from 'assert';
-import put from '../put';
+import put from '../module/put';
 
 test('#put', () => {
 	const object = {id: 1};

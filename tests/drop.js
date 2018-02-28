@@ -1,5 +1,5 @@
 import { deepEqual } from 'assert';
-import drop from '../drop';
+import drop from '../module/drop';
 
 test('#drop', () => {
 	const array = [1, 2, 3, 4, 5];
